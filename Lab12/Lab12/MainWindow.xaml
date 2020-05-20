@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ZalogujBTN" Content="Zaloguj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="694,10,0,0" Click="ZalogujBTN_Click"/>
+        <Button x:Name="WylogujBTN" Visibility="Hidden" Content="Wyloguj" HorizontalAlignment="Left" Margin="694,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.489,-0.685"/>
+        <Button x:Name="AkceptujBTN" Content="Akceptuj" HorizontalAlignment="Left" Margin="611,390,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="AnulujBTN" Content="Anuluj" HorizontalAlignment="Left" Margin="694,390,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.004,0.508"/>
+        <Label Content="Podaj swój login:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="263,149,0,0"/>
+        <Label Content="Podaj swoje hasło:" HorizontalAlignment="Left" Margin="263,180,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="HasloPB" HorizontalAlignment="Left" Margin="375,180,0,0" VerticalAlignment="Top" Height="26" Width="116"/>
+        <TextBox x:Name="LoginTB" HorizontalAlignment="Left" Height="23" Margin="375,149,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="116" TextChanged="LoginTB_TextChanged"/>
+
+
+    </Grid>
+</Window>
